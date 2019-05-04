@@ -53,4 +53,8 @@ window.onload = function() {
 		$(this).css("margin-top", new_margin)
 	});*/
 
+	if(window.location.href.indexOf('#replay') != -1) {
+		$('#replay_modal').modal('show');
+	}
+
 }
