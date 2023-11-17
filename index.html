@@ -50,7 +50,6 @@
             <ul class="nav navbar-nav navbar-right">
               <li role="presentation"><a href="#projects">Projects</a></li>
               <li role="presentation"><a href="#publications">Publications</a></li>
-              <li role="presentation"><a href="#teaching">Teaching</a></li>
               <li role="presentation"><a href="#misc">Miscellaneous</a></li>
             </ul>
           </div>
@@ -67,7 +66,7 @@
       <div id="about_me" class="col-sm-8">
         <h1>About Me</h1>
         <p>I am a Research Engineer at <a href="https://research.adobe.com">Adobe</a> focusing on Human-Computer Interaction.
-          I received my PhD in Computer Science from UC San Diego, where I was advised by <a href="https://d.ucsd.edu/srk">Scott Klemmer</a>
+          I received my PhD in Computer Science from UC San Diego, where I worked
           in the <a href="https://designlab.ucsd.edu">Design Lab</a>. My dissertation focused on supporting and improving peoples'
           creativity while they work with digital tools by harvesting existing expert content &amp; presenting it in context.
         </p>
@@ -86,7 +85,7 @@
           <a href="https://github.com/ailiefraser">
             <img src="images/github.png" /></a>
           <a href="https://scholar.google.com/citations?user=4pHDLy0AAAAJ&hl=en">
-            <img src="images/google.png" /></a>
+            <img src="images/scholar.png" /></a>
           <a href="https://www.instagram.com/ailiefraser">
             <img src="images/instagram.png" /></a>
           <a href="https://www.twitter.com/ailiefraser">
@@ -104,6 +103,107 @@
       <div class="section_boxes">
 
         <div class="row box_row" >
+
+          <div class="col-sm-4">
+            <div class="section_box" data-toggle="modal" data-target="#blink_modal" >
+              <img class="section_img"
+                src="images/boxes/blink.png" />
+              <div class="section_name">
+                <p>AI-Powered Video Editing</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="blink_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Project Blink: AI-Powered Video Editing on the Web</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <img class="left-image" src="images/blink.jpg" /><br/><br/>
+                      <iframe width="100%" height="200px" src="https://www.youtube.com/embed/8JbhWih-wro?si=0BHM2bSqc9_uHc3_" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-sm-6 fill-height">
+                      <p>Project Blink is an AI-powered web-based video editing app. It is the result of a multi-year cross-disciplinary effort led by Adobe Research. With Project Blink, users can edit videos like they would edit text; by copying, pasting, and deleting text from the video transcript. Users can also search the video for objects, sounds, emotions, speakers, and more, to find when they appear and pull out key moments. Project Blink automatically trims clips for smooth transitions, and makes it easy to remove unnecessary “ums,” “ahs,” and pauses. We released Project Blink as a public beta in October 2022, and it was used by over 1500 people.</p>
+                      <p>Watch our demo videos of Project Blink on <a target="_blank" href="https://labs.adobe.com/projects/blink/">
+                        Adobe Labs</a>.</p>
+                      <p>Read more about Project Blink and the team behind it on <a target="_blank" href="https://research.adobe.com/news/project-blink-creating-the-future-of-ai-powered-video-editing/">
+                        Adobe Research News</a>.</p>
+                      <br/><br/>
+                    </div>
+                  </div>
+                  <div class="small_space"></div>
+                  <div class="small_space"></div>
+                  <div class="logos modal_logos">
+                    <img src="images/adobe.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="section_box" data-toggle="modal" data-target="#remap_modal" >
+              <img class="section_img"
+                src="images/boxes/remap.png" />
+              <div class="section_name">
+                <p>Multimodal Help-Seeking</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="remap_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">ReMap: Lowering the Barrier to Help-Seeking with Multimodal Search</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-sm-5">
+                      <img class="left-image" src="images/remap2.png" />
+                    </div>
+                    <div class="col-sm-7 fill-height">
+                      <p>This work investigates how multimodal interaction can make in-task help-seeking
+                        easier and faster. We introduce ReMap, a multimodal
+                        search interface that helps users find video assistance while
+                        using desktop and web applications. Users can speak search
+                        queries, add application-specific terms deictically (<i>e.g., “how
+                        to erase this”</i>), and navigate search results via speech, all
+                        without taking their hands (or mouse) off their current task.
+                        Thirteen participants who used ReMap in the lab found that it
+                        helped them stay focused on their task while simultaneously
+                        searching for and using learning videos. </p>
+                      <h4>Publications:</h4>
+                      <p><a href="ReMap_UIST_2020.pdf">
+                        ReMap: Lowering the Barrier to Help-Seeking with Multimodal Search</a>. 
+                        <i>UIST '20</i>.</p>
+                      <p><a href="ReMap_UIST2019_demo.pdf">
+                        ReMap: Multimodal Help-Seeking</a>. 
+                          <i>UIST '19 adjunct</i>. (Demo, <a href="ReMap_Poster.pdf">Poster</a>)</p>
+                      <h4>Collaborators:</h4>
+                      <p><a href="https://juliamarkel.github.io/">Julia Markel</a>, 
+                        <a href="https://jamesbasa.github.io/">James Basa</a>,
+                        <a href="https://research.adobe.com/person/mira-dontcheva/">Mira Dontcheva</a>,
+                        <a href="https://d.ucsd.edu/srk">Scott Klemmer</a>.
+                      </p><br/><br/>
+                    </div>
+                  </div>
+                  <div class="small_space"></div>
+                  <div class="small_space"></div>
+                  <div class="logos modal_logos">
+                    <img src="images/adobe.png" />
+                    <img src="images/designlab.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="col-sm-4">
             <div class="section_box" data-toggle="modal" data-target="#replay_modal" >
@@ -163,6 +263,9 @@
               </div>
             </div>
           </div>
+
+        </div>
+        <div class="row box_row">
 
           <div class="col-sm-4">
             <div class="section_box" data-toggle="modal" data-target="#livestream_modal" >
@@ -272,9 +375,6 @@
             </div>
           </div>
 
-        </div>
-        <div class="row box_row">  
-
           <div class="col-sm-4">
             <div class="section_box" data-toggle="modal" data-target="#webuild_modal" >
               <img class="section_img"
@@ -323,12 +423,14 @@
                   <div class="small_space"></div>
                   <div class="logos modal_logos">
                     <img src="images/autodesk.png" />
-                    <img src="images/designlab.png" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+        </div>
+        <div class="row box_row">  
 
           <div class="col-sm-4">
             <div class="section_box" data-toggle="modal" data-target="#discoveryspace_modal" >
@@ -449,196 +551,6 @@
           </div>
 
         </div>
-        <div class="row box_row">  
-
-          <div class="col-sm-4">
-            <div class="section_box" data-toggle="modal" data-target="#healthcare_modal" >
-              <img class="section_img"
-                src="images/boxes/radonc.jpg" 
-                title="Image source: healthsciences.ucsd.edu" />
-              <div class="section_name">
-                <p>Human-Centered Healthcare Design</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="healthcare_modal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Human-Centered Healthcare Design (Spring 2015)</h4>
-                </div>
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col-sm-5">
-                      <img class="left-image" src="images/boxes/radonc.jpg"  />
-                    </div>
-                    <div class="col-sm-7 fill-height">
-                      <p>As part of the Design Lab's Human-Centered Healthcare Design initiative, 
-                        I worked with <a href="http://weibel.ucsd.edu/">Nadir Weibel</a> in collaboration with UCSD Radiation Oncology 
-                        and conducted observations to understand their current system and explore technological improvements. 
-                      </p>
-                      <p>Read about the Design Lab's healthcare initiatives <a href="http://dx.doi.org/10.1016/j.sheji.2016.01.002">here</a>.
-                      </p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-
-                    </div>
-                  </div>
-                  <div class="logos modal_logos">
-                    <img src="images/designlab.png" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="section_box" data-toggle="modal" data-target="#brdf_modal" >
-              <img class="section_img"
-                src="images/boxes/brdf_final.jpg" />
-              <div class="section_name">
-                <p>Real-time Editing of Material Properties</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="brdf_modal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Real-time Editing of Material Properties (Winter 2015)</h4>
-                </div>
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col-sm-7">
-                      <img class="left-image" src="cse291/interface.png"  />
-                    </div>
-                    <div class="col-sm-5 fill-height">
-                      <p>The ability to interactively edit materials in a rendered scene is important for graphic artists and designers. 
-                        Rather than adjusting the values of parameters for an analytic BRDF (Bidirectional Reflectance Distribution Function) 
-                        model, a more intuitive method would be to paint edits directly on the rendered image and interactively see results. 
-                        For my project with <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>, I explored the challenges and 
-                        possibilities for building such an intuitive BRDF editing system.
-                      </p>
-                      <p>Read my final report <a href="cse291/report.html">here</a>.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="section_box" data-toggle="modal" data-target="#lis_modal" >
-              <img class="section_img"
-                src="images/boxes/speedytype.jpg" />
-              <div class="section_name">
-                <p>Communication with Locked-in Syndrome</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="lis_modal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Communication with Locked-in Syndrome (Fall 2014)</h4>
-                </div>
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col-sm-5">
-                      <iframe width="100%" height="200px" src="https://www.youtube.com/embed/mYUiSeqqgDY" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-sm-7 fill-height">
-                      <p>As our project for CSE218 (Advanced Topics in Software Engineering: Ubiquitous Computing), 
-                        my group built a system called SpeedyType for people who suffer from locked in syndrome 
-                        to type messages using only their eyes. Our system also included a piano keyboard for playing 
-                        music using the eyes. See a video of our demo 
-                        <a href="http://youtu.be/mYUiSeqqgDY">here</a>.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>        
-
-        </div>
-        <div class="row box_row">  
-
-          <div class="col-sm-4">
-            <div class="section_box" data-toggle="modal" data-target="#pdc_modal" >
-              <img class="section_img"
-                src="images/boxes/pdc.png" />
-              <div class="section_name">
-                <p>Primal-dual Coding</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="pdc_modal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Exploring Extensions of Primal-dual Coding (2013-2014)</h4>
-                </div>
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col-sm-5">
-                      <img class="left-image" src="images/boxes/pdc.png"  />
-                    </div>
-                    <div class="col-sm-7 fill-height">
-                      <p>I worked as a research assistant for <a href="http://www.cs.toronto.edu/~kyros/">Kyros Kutulakos</a> 
-                        in the Dynamic Graphics Project lab at the University of Toronto. I studied BRDF acquisition and 
-                        visual texture analysis, and extended an existing “primal-dual coding” camera system to isolate 
-                        light transport based on the direction and distance of travel.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="section_box" data-toggle="modal" data-target="#piano_modal" >
-              <img class="section_img"
-                src="images/boxes/piano.png" />
-              <div class="section_name">
-                <p>3D Interactive Piano Keyboard</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="piano_modal" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">3D Interactive Piano Keyboard</h4>
-              </div>
-              <div id="piano_body" class="modal-body">
-                <div class="row">
-                  <div class="col-sm-5">
-                    <img class="left-image" src="images/boxes/piano.png" />
-                  </div>
-                  <div class="col-sm-7">
-                    <p>As our final project for CSC418/2504 - Computer Graphics at the University of Toronto, 
-                      David Liu &amp; I built a 3D interactive piano keyboard program.</p> 
-                    <p>Try it out! Download: <a href="PianoSim.zip">Windows</a> &#124; 
-                      <a href="piano_mac.zip">Mac</a> (19 MB)</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <div class="space"></div>
@@ -699,90 +611,6 @@
 
       <h2>Dissertation</h2>
       <p>C. Ailie Fraser. 2020. <a href="AilieFraserDissertation.pdf">Contextually Recommending Expert Help and Demonstrations to Improve Creativity</a>. UC San Diego. (<a href="AilieDefenseSlidesCompressed.pdf">Defense Slides</a>)</p>
-    </div>
-
-    <div class="space"></div>
-    <div id="teaching">
-      <h1>Teaching</h1>
-      <div class="section_boxes">
-
-        <div class="row box_row" >
-
-          <div class="col-sm-4">
-            <div class="section_box" data-toggle="modal" data-target="#cse216_modal" >
-              <img class="section_img"
-                src="images/boxes/216_photo.jpg" />
-              <div class="section_name">
-                <p>CSE 216 - Interaction Design Research</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="cse216_modal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">CSE 216 - Interaction Design Research (Fall 2015)</h4>
-                </div>
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col-sm-5">
-                      <img class="left-image" src="images/ixd.png" title="Image by Bill Verplank" />
-                    </div>
-                    <div class="col-sm-7">
-                      <p>I was the Teaching Assistant for <a href="https://d.ucsd.edu/IxD/research/2015/">
-                        CSE 216 - Interaction Design Research</a>, a discussion-based graduate course 
-                        that provides an overview of the Human-Computer Interaction 
-                        literature and involves conducting an HCI research project. As the TA, I 
-                        helped guide students in defining and executing their project plans, helped 
-                        students prepare class presentations and moderate discussions, and managed 
-                        the course logistics. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="section_box" data-toggle="modal" data-target="#csc148_modal" >
-              <img class="section_img"
-                src="images/boxes/csc_uoft.jpg" />
-              <div class="section_name">
-                <p>CSC148 - Introduction to Computer Science</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="csc148_modal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">CSC148 - Introduction to Computer Science (Winters 2012, 2013)</h4>
-                </div>
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col-sm-5">
-                      <img class="left-image" src="images/boxes/csc_uoft.jpg" />
-                    </div>
-                    <div class="col-sm-7">
-                      <p>I was the teaching assistant for two semesters of CSC 148 - Introduction to Computer Science. 
-                        This class teaches the fundamentals of computer science and programming using 
-                        Python as the primary language. As the TA, I supervised lab sessions and helped 
-                        students with problems, graded assignments and midterms, held office hours, and 
-                        proctored the final exam.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
     </div>
 
     <div class="space"></div>
@@ -1074,11 +902,6 @@
 
 
     <footer class="footer">
-      <a href="http://designlab.ucsd.edu">
-        <img src="images/designlab.png" /></a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="http://cse.ucsd.edu">
-        <img src="images/ucsd_cse.gif" /></a>
     </footer>
 
   </div> <!-- /container -->
