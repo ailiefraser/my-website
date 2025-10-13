@@ -57,4 +57,17 @@ window.onload = function() {
 		$('#replay_modal').modal('show');
 	}
 
+	// Smooth scrolling for navigation links
+	$('a[href^="#"]').on('click', function(e) {
+		var target = $(this).attr('href');
+		// Only handle internal page anchors (not modals or empty hashes)
+		if (target && target !== '#' && $(target).length) {
+			e.preventDefault();
+			history.pushState(null, null, target);
+			$('html, body').animate({
+				scrollTop: $(target).offset().top
+			}, 800);
+		}
+	});
+
 }

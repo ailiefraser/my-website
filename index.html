@@ -13,7 +13,7 @@
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="bootstrap/js/extra.js?v=1"></script>
+  <script src="bootstrap/js/extra.js?v=2"></script>
 
   <title>Ailie Fraser</title>
 
@@ -65,7 +65,8 @@
       </div>
       <div id="about_me" class="col-sm-8">
         <h1>About Me</h1>
-        <p>I am a Research Engineer at <a href="https://research.adobe.com">Adobe</a> focusing on Human-Computer Interaction.
+        <p>I am a Senior Research Engineer at <a href="https://research.adobe.com">Adobe</a>,
+          where I develop prototypes and pipelines to support creative workflows.
           I received my PhD in Computer Science from UC San Diego, where I worked
           in the <a href="https://designlab.ucsd.edu">Design Lab</a>. My dissertation focused on supporting and improving peoples'
           creativity while they work with digital tools by harvesting existing expert content &amp; presenting it in context.
@@ -84,7 +85,7 @@
             <img id="first_logo" src="images/linkedin.png" /></a>
           <a href="https://github.com/ailiefraser">
             <img src="images/github.png" /></a>
-          <a href="https://scholar.google.com/citations?user=4pHDLy0AAAAJ&hl=en">
+          <a href="https://scholar.google.com/citations?user=cBCla0EAAAAJ&hl=en">
             <img src="images/scholar.png" /></a>
           <a href="https://www.instagram.com/ailiefraser">
             <img src="images/instagram.png" /></a>
@@ -103,6 +104,78 @@
       <div class="section_boxes">
 
         <div class="row box_row" >
+
+          <div class="col-sm-4">
+            <div class="section_box" data-toggle="modal" data-target="#vibeclip_modal" >
+              <img class="section_img"
+                src="images/boxes/vibeclip.png" />
+              <div class="section_name">
+                <p>Music Generation Interfaces for Video Creators</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="vibeclip_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Music Generation Interfaces for Video Creators</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-sm-5">
+                      <img class="left-image" src="images/boxes/vibeclip.png" /><br /><br />
+                      <img class="left-image" src="images/vibeclip2.png" />
+                    </div>
+                    <div class="col-sm-7 fill-height">
+                      <p>
+                        Background music plays a crucial role in social media
+                        videos, yet finding the right music remains a challenge
+                        for video creators. These creators, often not music
+                        experts, struggle to describe their musical goals and
+                        compare options. AI text-to-music generation presents an
+                        opportunity to address these challenges by allowing
+                        users to generate music through text prompts; however,
+                        these models often require musical expertise and are
+                        difficult to control. In this work, we explore how to
+                        incorporate music generation into video editing
+                        workflows. A formative study with video creators
+                        revealed challenges in articulating and iterating on
+                        musical preferences, as creators described music as
+                        “vibes” rather than with explicit musical vocabulary.
+                        Guided by these insights, we developed a creative
+                        assistant for music generation using editable vibe-based
+                        recommendations and structured refinement of music
+                        output. A user study showed that the assistant supports
+                        exploration, while direct prompting is more effective
+                        for precise goals. Our findings offer design
+                        recommendations for AI music tools for video creators.
+                      </p>
+                      <h4>Publications:</h4>
+                      <p>
+                        <a href="ItsMoreOfAVibe-DIS2025.pdf">"It's more of a vibe I'm going for":
+                          Designing Text-to-Music Generation Interfaces for Video Creators</a>. 
+                        <i>DIS '25</i>.
+                      </p>
+                      <h4>Collaborators:</h4>
+                      <p><a href="https://www.nhammad.me/">Noor Hammad</a>, 
+                        <a href="https://www.erikharpstead.net/">Erik Harpstead</a>,
+                        <a href="http://replayable.net/">Jessica Hammer</a>,
+                        <a href="https://research.adobe.com/person/mira-dontcheva/">Mira Dontcheva</a>.
+                      </p><br/><br/>
+                    </div>
+                  </div>
+                  <div class="small_space"></div>
+                  <div class="small_space"></div>
+                  <div class="logos modal_logos">
+                    <img src="images/adobe.png" />
+                    <img src="images/hcii.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="col-sm-4">
             <div class="section_box" data-toggle="modal" data-target="#blink_modal" >
@@ -205,6 +278,9 @@
             </div>
           </div>
 
+        </div>
+        <div class="row box_row">
+
           <div class="col-sm-4">
             <div class="section_box" data-toggle="modal" data-target="#replay_modal" >
               <img class="section_img"
@@ -263,9 +339,6 @@
               </div>
             </div>
           </div>
-
-        </div>
-        <div class="row box_row">
 
           <div class="col-sm-4">
             <div class="section_box" data-toggle="modal" data-target="#livestream_modal" >
@@ -375,6 +448,9 @@
             </div>
           </div>
 
+        </div>
+        <div class="row box_row">  
+
           <div class="col-sm-4">
             <div class="section_box" data-toggle="modal" data-target="#webuild_modal" >
               <img class="section_img"
@@ -428,9 +504,6 @@
               </div>
             </div>
           </div>
-
-        </div>
-        <div class="row box_row">  
 
           <div class="col-sm-4">
             <div class="section_box" data-toggle="modal" data-target="#discoveryspace_modal" >
@@ -556,6 +629,9 @@
     <div class="space"></div>
     <div id="publications">
       <h1>Publications</h1>
+      <p>Noor Hammad, C. Ailie Fraser, Erik Harpstead, Jessica Hammer, and Mira Dontcheva. 2025.
+        <a href="ItsMoreOfAVibe-DIS2025.pdf">"It's more of a vibe I'm going for": Designing Text-to-Music Generation Interfaces for Video
+        Creators</a>. <i>DIS '25</i>, Funchal, Madeira, Portugal.</p>
       <p>C. Ailie Fraser, Julia M. Markel, N. James Basa, Mira Dontcheva, and Scott Klemmer. 
         2020. <a href="ReMap_UIST_2020.pdf">ReMap: Lowering the Barrier to Help-Seeking with Multimodal Search</a>. 
         <i>UIST '20</i>.</p>
@@ -578,17 +654,20 @@
         Coordination</a>. <i>CHI '17</i>, Denver, CO, USA.</p>
       <p>C. Ailie Fraser, Mira Dontcheva, Holger Winnemöller, Sheryl Ehrlich, 
         and Scott R. Klemmer. 2016. <a href="DiscoverySpace_Final.pdf">DiscoverySpace: 
-        Suggesting Actions in Complex Software</a>. <i>DIS ’16</i>, Brisbane, QLD, Australia.</p>
+        Suggesting Actions in Complex Software</a>. <i>DIS '16</i>, Brisbane, QLD, Australia.</p>
       <p>Catherine M. Hicks, Vineet Pandey, C. Ailie Fraser, and Scott R. Klemmer. 
         2016. <a href="http://d.ucsd.edu/framingFeedback/FramingFeedback-CHI-Final.pdf">
         Framing Feedback: Choosing Review Environment Features that Support 
-        High Quality Peer Assessment</a>. <i>CHI ’16</i>, San Jose, CA, USA.</p>
+        High Quality Peer Assessment</a>. <i>CHI '16</i>, San Jose, CA, USA.</p>
+
       <h2>Extended Abstracts</h2>
+      <p>Mina Huh, C. Ailie Fraser, Dingzeyu Li, Mira Dontcheva, and Bryan Wang. 2025. <a href="VidTune-ISMIR2025.pdf">Generating
+        Video Soundtracks with Contextual Visual Thumbnails</a>. <i>ISMIR '25</i>, Daejeon, Korea. (Demo)</p>
       <p>C. Ailie Fraser, Julia M. Markel, N. James Basa, Mira Dontcheva, and Scott Klemmer. 
         2019. <a href="ReMap_UIST2019_demo.pdf">ReMap: Multimodal Help-Seeking</a>. 
         <i>UIST '19</i>, New Orleans, LA, USA. (Demo, <a href="ReMap_Poster.pdf">Poster</a>)</p>
       <p>C. Ailie Fraser, Joy Kim, Scott Klemmer, and Mira Dontcheva. 2019. 
-        <a href="Creative_Live_Streams_CHI_workshop.pdf">Creative livestreaming: How sharing one’s process can 
+        <a href="Creative_Live_Streams_CHI_workshop.pdf">Creative livestreaming: How sharing one's process can 
         inspire, educate, and engage</a>. 
         <i>CHI '19 <a href="https://sites.google.com/view/chi-streaming-workshop">
         Live Streaming Workshop</a></i>, Glasgow, Scotland. (Workshop Paper)</p>
